@@ -1,4 +1,4 @@
-# harmony-cli
+# harmony
 
 A Dockerized prototype that ingests a California HCD manufactured-home title PDF, drives a **GitHub Copilot CLI agent** (model: `claude-haiku-4.5`) over MCP-based PDF tools to extract title data, presents it for human verification (HITL), then fills three blank HCD transfer forms (`HCD 476.6G`, `HCD 476.6`, `HCD 480.5`) and returns a downloadable ZIP packet — all from a single-container deployment at [http://localhost:3031](http://localhost:3031).
 
@@ -29,12 +29,6 @@ Open [http://localhost:3031](http://localhost:3031). Upload a title PDF → revi
 | Validation | Zod v4 at every HTTP boundary | Catches malformed input before any business logic runs. |
 | Observability | JSONL transcript per run + structured logger (pino) | Full replay, easy debugging, zero infra. |
 | Tests | Vitest (unit/contract) + Playwright (e2e in container) | Layered test pyramid covering schemas, event bus, config, and end-to-end flow. |
-
----
-
-## Scaling Limitation (Assignment §6)
-
-> **Pure model-size scaling does not solve our bottleneck.** Our extraction quality is gated by *PDF tool fidelity* (OCR confidence on the scanned title's decal/serial regions, AcroForm field discovery on HCD's blank PDFs) and by *prompt-token throughput per run*. Doubling the model from Haiku to Opus would burn ~5× the cost and ~3× the latency for marginal field-extraction gains; the actual wins come from upgrading the OCR backend (Tesseract → Mistral OCR / Azure Document Intelligence) and from per-form field-name catalogues that shrink the Copilot context window. In short: at our scale the system is **tool-bound**, not **parameter-bound**, so investing in better MCP tools and tighter prompts beats investing in a larger model.
 
 ---
 
@@ -132,18 +126,6 @@ After the Copilot extraction agent reads the uploaded title, the system pauses a
 2. The ability to **approve** or reject the extraction before any forms are filled.
 
 The state machine refuses to advance to the form-filling stage until the human explicitly approves via `POST /api/runs/:id/approve`. This ensures no incorrect data propagates into the final HCD packet.
-
----
-
-## What I'd Harden Next
-
-- **Multi-page titles**: Support titles that span multiple PDF pages or have attachments.
-- **Real OCR upgrade**: Replace Tesseract with Mistral OCR or Azure Document Intelligence for higher confidence on low-quality scans.
-- **Audit log**: Track every extraction, approval, and fill event with timestamps and user identity.
-- **Multi-tenant**: Add authentication (GitHub OAuth or similar) and per-org data isolation.
-- **Field validation rules**: HCD-specific validation (e.g., decal format `LAA####`, serial format patterns).
-- **Retry & error recovery**: Allow users to re-run extraction or re-fill forms without starting over.
-- **Integration write-backs**: After HCD submission, update accounting, tenant, and property systems automatically.
 
 ---
 
