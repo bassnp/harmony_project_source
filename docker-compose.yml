@@ -1,0 +1,35 @@
+# =============================================================================
+# HCD Title Transfer Agent — Docker Compose
+# Single-container deployment: Next.js 15 + Copilot CLI + MCP PDF tools
+# Port: 3031 | Volume: workspace_data → /workspace
+# Ref: references/research/DOCKER_DEPLOYMENT_HIGH_QUALITY_REFERENCE.md §4
+# =============================================================================
+
+name: hcd-title-agent
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hcd-title-agent:latest
+    container_name: hcd-title-agent
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3031"
+      HOSTNAME: "0.0.0.0"
+      NEXT_TELEMETRY_DISABLED: "1"
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "3031:3031"
+    volumes:
+      - type: volume
+        source: workspace_data
+        target: /workspace
+
+volumes:
+  workspace_data:
+    name: hcd_workspace_data

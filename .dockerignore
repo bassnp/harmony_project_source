@@ -1,0 +1,41 @@
+# =============================================================================
+# .dockerignore — Exclude non-essential files from Docker build context
+# Keep AGENTS.md (needed by Copilot at runtime) but exclude other docs
+# =============================================================================
+
+node_modules/
+.next/
+.git/
+.gitignore
+
+# Test suites (not needed in production image)
+tests/
+
+# Documentation (except AGENTS.md which is needed at runtime)
+README.md
+CLAUDE.md
+*.md
+!AGENTS.md
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+coverage/
+dist/
+*.tsbuildinfo
+
+# Env files (injected at runtime, not baked into image)
+.env
+.env.local
+.env.*.local
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,3094 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-04-18T05:34:45.553Z",
+  "mode": "direct",
+  "forms": [
+    {
+      "form_id": "HCD_476_6G",
+      "filename": "hcd-rt-476-6g.pdf",
+      "fields": [
+        {
+          "name": "Decal (License) No.(s) (page 1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            135.24000549316406,
+            155.8800048828125,
+            318.3599853515625,
+            173.6400146484375
+          ],
+          "value": null,
+          "semantic_label": "decal_number"
+        },
+        {
+          "name": "Serial No.(s) (page 1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            390.4800109863281,
+            156.8800048828125,
+            570.3599853515625,
+            174.6400146484375
+          ],
+          "value": null,
+          "semantic_label": "serial_number"
+        },
+        {
+          "name": "I/We, the undersigned, hereby state that the manufactured home, mobilehome, or multifamily manufactured home described above is equipped with a properly working, operable smoke detector in accordance with California Health and Safety Code Section 18029.6 and a carbon monoxide detector in accordance to California Residential Code Section R315",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            257.14898681640625,
+            257.4000244140625,
+            266.5090026855469,
+            266.6400146484375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "I/We, the undersigned, hereby state that the manufactured home, mobilehome, or multifamily manufactured home described above is equipped with a properly working, operable smoke detector in accordance with California Health and Safety Code Section 18029.6 and a carbon monoxide detector in accordance to California Residential Code Section R315",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            307.67999267578125,
+            257.4000244140625,
+            317.0400085449219,
+            266.6400146484375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Do you (the registered owner) own your manufactured home/mobilehome?",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            394.32000732421875,
+            342.9599914550781,
+            404.6400146484375,
+            353.2799987792969
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Do you (the registered owner) own your manufactured home/mobilehome?",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            442.67999267578125,
+            342.9599914550781,
+            453,
+            353.2799987792969
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Do you (the registered owner) own the land your manufactured home/mobilehome is located on?",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            490.79998779296875,
+            355.20001220703125,
+            500.0400085449219,
+            364.44000244140625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Do you (the registered owner) own the land your manufactured home/mobilehome is located on?",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            538.6799926757812,
+            355.20001220703125,
+            547.9199829101562,
+            364.44000244140625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "We request the Department of Housing and Community Development to register our ownership interest in the unit described above with the following co-owner term",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            36.218101501464844,
+            425.4540100097656,
+            47.999900817871094,
+            437.2349853515625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "We request the Department of Housing and Community Development to register our ownership interest in the unit described above with the following co-owner term",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            36.218101501464844,
+            460.06298828125,
+            47.999900817871094,
+            471.8450012207031
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "We request the Department of Housing and Community Development to register our ownership interest in the unit described above with the following co-owner term",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            36.218101501464844,
+            494.7179870605469,
+            47.999900817871094,
+            506.5
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "We request the Department of Housing and Community Development to register our ownership interest in the unit described above with the following co-owner term",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            36.218101501464844,
+            529.3720092773438,
+            47.999900817871094,
+            541.1539916992188
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "We request the Department of Housing and Community Development to register our ownership interest in the unit described above with the following co-owner term",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            36.218101501464844,
+            552.6810302734375,
+            47.999900817871094,
+            564.4630126953125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Date Executed on (page 1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            82.91999816894531,
+            651.5999755859375,
+            185.0399932861328,
+            669.239990234375
+          ],
+          "value": null,
+          "semantic_label": "date_executed_p1"
+        },
+        {
+          "name": "City and State Executed at (page 1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            196.0800018310547,
+            651.5999755859375,
+            576.1199951171875,
+            669.239990234375
+          ],
+          "value": null,
+          "semantic_label": "city_state_executed_p1"
+        },
+        {
+          "name": "PHONE #:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            72.4800033569336,
+            733.3200073242188,
+            300.3599853515625,
+            751.0800170898438
+          ],
+          "value": null,
+          "semantic_label": "phone"
+        },
+        {
+          "name": "E-MAIL ADDRESS:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            378.9599914550781,
+            733.5599975585938,
+            576.3599853515625,
+            751.3200073242188
+          ],
+          "value": null,
+          "semantic_label": "email"
+        },
+        {
+          "name": "Decal (License) No.(s) (page 2):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            137.75999450683594,
+            33.03997802734375,
+            318.1199951171875,
+            51.52001953125
+          ],
+          "value": null,
+          "semantic_label": "decal_number_p2"
+        },
+        {
+          "name": "Serial No.(s) (page 2):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            390.239990234375,
+            33.03997802734375,
+            570.1199951171875,
+            51.52001953125
+          ],
+          "value": null,
+          "semantic_label": "serial_number_p2"
+        },
+        {
+          "name": "I/We the undersigned hereby state that all fuel gas-burning water heater appliances in the manufactured home, mobilehome, or multifamily manufactured housing described above are seismically braced, anchored, or strapped in accordance with Health and Safety Co",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            255.47999572753906,
+            125.760009765625,
+            265.32000732421875,
+            135.719970703125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "I/We the undersigned hereby state that all fuel gas-burning water heater appliances in the manufactured home, mobilehome, or multifamily manufactured housing described above are seismically braced, anchored, or strapped in accordance with Health and Safety Co",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            305.8800048828125,
+            125.760009765625,
+            315.7200012207031,
+            135.719970703125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "I/We the undersigned hereby state that all fuel gas-burning water heater appliances in the manufactured home, mobilehome, or multifamily manufactured housing described above are seismically braced, anchored, or strapped in accordance with Health and Safety Co",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            360.4800109863281,
+            125.760009765625,
+            370.79998779296875,
+            136.08001708984375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "The above-described unit was a gift. All rights and interest of ownership were transferred without exchange or money or other valuable consideration",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            36.720001220703125,
+            211.91998291015625,
+            45.36000061035156,
+            220.67999267578125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "The above-described unit has been acquired",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            36.720001220703125,
+            238.08001708984375,
+            45.36000061035156,
+            246.84002685546875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "If minors, check here",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            543.8619995117188,
+            391.22900390625,
+            553.1019897460938,
+            400.468994140625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "The above-described unit has been acquired from (parents, spouse, grandparent(s), grandchild, child, brother(s), sister(s)):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            257.1600036621094,
+            228,
+            576.1199951171875,
+            246.47998046875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Show relationship:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            111.95999908447266,
+            258.5999755859375,
+            282.1199951171875,
+            277.08001708984375
+          ],
+          "value": null,
+          "semantic_label": "relationship"
+        },
+        {
+          "name": "The name of a (show relationship) is being",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            322.3630065917969,
+            267.38201904296875,
+            333.1629943847656,
+            278.1820068359375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "The name of a (show relationship) is being",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            383.8909912109375,
+            267.38201904296875,
+            394.6910095214844,
+            278.1820068359375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "The name of a (show relationship) is being added or deleted to the record",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            37.105098724365234,
+            268.55999755859375,
+            45.36000061035156,
+            277.32000732421875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "The above-described unit was received as the result of an inheritance",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            36.720001220703125,
+            298.9200134277344,
+            45.36000061035156,
+            307.67999267578125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Transfer of the above-described unit is being made pursuant to a court order",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            36.720001220703125,
+            319.32000732421875,
+            45.36000061035156,
+            328.0799865722656
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "The transfer of the unit is being made to a revocable trust which (1) the seller has an unrestricted power to revoke the trust, (2) the transfer does not result in any change in the beneficial ownership of the property, (3) the trust provides that upon revocation of the trust the property will revert wholly to the seller, and (4) the only consideration for the transfer is the assumption by the trust of an existing loan for which the tangible personal property being transferred is the sole collateral for the assumed loan",
+          "type": "checkbox",
+          "page": 1,
+          "rect": [
+            36.720001220703125,
+            339.7200012207031,
+            45.36000061035156,
+            348.4800109863281
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Date of Declaration of Trust:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            93,
+            461.3999938964844,
+            438.9599914550781,
+            474.6000061035156
+          ],
+          "value": null,
+          "semantic_label": "trust_declaration_date"
+        },
+        {
+          "name": "Print Name of the Trust. This is how the name of the Trust will appear on title.:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            36,
+            516.47998046875,
+            576.1199951171875,
+            529.6799926757812
+          ],
+          "value": null,
+          "semantic_label": "trust_name"
+        },
+        {
+          "name": "Date Executed on (page 2):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            88.19999694824219,
+            645.9600219726562,
+            204,
+            664.4400024414062
+          ],
+          "value": null,
+          "semantic_label": "date_executed_p2"
+        },
+        {
+          "name": "City and State Executed at (page 2):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            213.85000610351562,
+            646.0689697265625,
+            577.9879760742188,
+            664.5490112304688
+          ],
+          "value": null,
+          "semantic_label": "city_state_executed_p2"
+        },
+        {
+          "name": "Street Address or P.O. Box, City, and State:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            35.34450149536133,
+            703.9199829101562,
+            575.7039794921875,
+            722.4000244140625
+          ],
+          "value": null,
+          "semantic_label": "mailing_address"
+        }
+      ]
+    },
+    {
+      "form_id": "HCD_476_6",
+      "filename": "hcd-rt-476-6.pdf",
+      "fields": [
+        {
+          "name": "Unit Type",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            103.63899993896484,
+            138.91900634765625,
+            116.9260025024414,
+            149.5880126953125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Unit Type",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            286.3529968261719,
+            138.635009765625,
+            299.11700439453125,
+            150.875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Unit Type",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            404.6889953613281,
+            138.57501220703125,
+            417.4530029296875,
+            150.81500244140625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Unit Type",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            495.0570068359375,
+            138.68499755859375,
+            507.8210144042969,
+            150.92401123046875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Decal (License) Number",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            38.15999984741211,
+            181.7559814453125,
+            192.53500366210938,
+            229.7490234375
+          ],
+          "value": null,
+          "semantic_label": "decal_number"
+        },
+        {
+          "name": "Trade Name:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            193.26499938964844,
+            181.7559814453125,
+            402.5249938964844,
+            229.7490234375
+          ],
+          "value": null,
+          "semantic_label": "trade_name"
+        },
+        {
+          "name": "Serial Number",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            403.2850036621094,
+            181.7559814453125,
+            573.47998046875,
+            229.7490234375
+          ],
+          "value": null,
+          "semantic_label": "serial_number"
+        },
+        {
+          "name": "Statement",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            34.36949920654297,
+            255,
+            575.4119873046875,
+            278.281982421875
+          ],
+          "value": null,
+          "semantic_label": "statement"
+        },
+        {
+          "name": "Switch",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            35.60710144042969,
+            408.9590148925781,
+            185.60699462890625,
+            430.9590148925781
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Date Executed",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            109.44000244140625,
+            518.8800048828125,
+            211.67999267578125,
+            545.4000244140625
+          ],
+          "value": null,
+          "semantic_label": "date_executed"
+        },
+        {
+          "name": "City Executed",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            234.43600463867188,
+            519.4039916992188,
+            467.47601318359375,
+            545.9240112304688
+          ],
+          "value": null,
+          "semantic_label": "city_executed"
+        },
+        {
+          "name": "State Executed",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            477.9599914550781,
+            517.8330078125,
+            576.1199951171875,
+            544.35302734375
+          ],
+          "value": null,
+          "semantic_label": "state_executed"
+        },
+        {
+          "name": "Signature 1",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            36.65439987182617,
+            589.6119995117188,
+            186.41400146484375,
+            611.60498046875
+          ],
+          "value": null,
+          "semantic_label": "signature_1"
+        },
+        {
+          "name": "Signature 2",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            35.083499908447266,
+            633.5980224609375,
+            184.84300231933594,
+            655.5899658203125
+          ],
+          "value": null,
+          "semantic_label": "signature_2"
+        },
+        {
+          "name": "Printed name - 1",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            283.5830078125,
+            586.2100219726562,
+            574.385009765625,
+            612.3159790039062
+          ],
+          "value": null,
+          "semantic_label": "printed_name_1"
+        },
+        {
+          "name": "Printed name - 2",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            283.5830078125,
+            613.6729736328125,
+            574.385009765625,
+            654.239990234375
+          ],
+          "value": null,
+          "semantic_label": "printed_name_2"
+        },
+        {
+          "name": "Street Address:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            85.80000305175781,
+            673.6799926757812,
+            576.1199951171875,
+            700.2000122070312
+          ],
+          "value": null,
+          "semantic_label": "street_address"
+        },
+        {
+          "name": "City:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            58.876399993896484,
+            701.9564208984375,
+            394.7560119628906,
+            728.4763793945312
+          ],
+          "value": null,
+          "semantic_label": "city"
+        },
+        {
+          "name": "State:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            431.0069885253906,
+            702.47998046875,
+            577.1669921875,
+            729
+          ],
+          "value": null,
+          "semantic_label": "state"
+        }
+      ]
+    },
+    {
+      "form_id": "HCD_480_5",
+      "filename": "hcd-rt-480-5.pdf",
+      "fields": [
+        {
+          "name": "NEW DECAL #:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            507.7430114746094,
+            38.4940185546875,
+            583.9530029296875,
+            52.67999267578125
+          ],
+          "value": null,
+          "semantic_label": "new_decal_number"
+        },
+        {
+          "name": "OLD DECAL #:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            507.906005859375,
+            56.69097900390625,
+            584.1170043945312,
+            70.87701416015625
+          ],
+          "value": null,
+          "semantic_label": "old_decal_number"
+        },
+        {
+          "name": "Name of Manufacturer:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            18.479999542236328,
+            116.00701904296875,
+            134.16000366210938,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": "manufacturer_name"
+        },
+        {
+          "name": "Trade Name:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            135.9600067138672,
+            116.00701904296875,
+            242.16000366210938,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": "trade_name"
+        },
+        {
+          "name": "Date of Manufacture:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            243.9600067138672,
+            116.00701904296875,
+            323.1600036621094,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": "manufacture_date"
+        },
+        {
+          "name": "Model Name or #:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            324.9599914550781,
+            116.00701904296875,
+            422.1600036621094,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": "model_name"
+        },
+        {
+          "name": "ILT Exemption:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            423.9599914550781,
+            116.00701904296875,
+            494.1600036621094,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Date First Sold New:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            495.9599914550781,
+            116.00701904296875,
+            593.6400146484375,
+            129.239990234375
+          ],
+          "value": null,
+          "semantic_label": "date_first_sold"
+        },
+        {
+          "name": "DECAL/LICENSE # (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            17.912700653076172,
+            151.7130126953125,
+            80.5636978149414,
+            171.458984375
+          ],
+          "value": null,
+          "semantic_label": "unit_decal_1"
+        },
+        {
+          "name": "MANUFACTURER SERIAL NUMBER(S) (1)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            80.41089630126953,
+            151.22198486328125,
+            260.3999938964844,
+            170.968017578125
+          ],
+          "value": null,
+          "semantic_label": "unit_serial_1"
+        },
+        {
+          "name": "HUD LABEL OR HCD INSIGNIA # (1)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            261.8269958496094,
+            151.22198486328125,
+            412.9620056152344,
+            170.968017578125
+          ],
+          "value": null,
+          "semantic_label": "unit_hud_label_1"
+        },
+        {
+          "name": "LENGTH (Inches) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            414.16400146484375,
+            151.7130126953125,
+            476.1700134277344,
+            171.458984375
+          ],
+          "value": null,
+          "semantic_label": "unit_length_1"
+        },
+        {
+          "name": "WIDTH (Inches) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            476.95599365234375,
+            151.65802001953125,
+            539.780029296875,
+            171.40399169921875
+          ],
+          "value": null,
+          "semantic_label": "unit_width_1"
+        },
+        {
+          "name": "WEIGHT (pounds) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            540.5020141601562,
+            151.9849853515625,
+            594.489990234375,
+            171.73101806640625
+          ],
+          "value": null,
+          "semantic_label": "unit_weight_1"
+        },
+        {
+          "name": "DECAL/LICENSE # (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            17.749099731445312,
+            172.17498779296875,
+            80.4000015258789,
+            191.9210205078125
+          ],
+          "value": null,
+          "semantic_label": "unit_decal_2"
+        },
+        {
+          "name": "MANUFACTURER SERIAL NUMBER(S) (2)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            81.06549835205078,
+            172.3380126953125,
+            260.3999938964844,
+            192.083984375
+          ],
+          "value": null,
+          "semantic_label": "unit_serial_2"
+        },
+        {
+          "name": "HUD LABEL OR HCD INSIGNIA # (2)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            261.33599853515625,
+            172.573974609375,
+            413.17999267578125,
+            192.32000732421875
+          ],
+          "value": null,
+          "semantic_label": "unit_hud_label_2"
+        },
+        {
+          "name": "LENGTH (Inches) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            414.3280029296875,
+            172.3380126953125,
+            476.1700134277344,
+            192.083984375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "WIDTH (Inches) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            477.3559875488281,
+            172.573974609375,
+            539.198974609375,
+            192.32000732421875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "WEIGHT (pounds) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            540.5570068359375,
+            172.21002197265625,
+            594.2169799804688,
+            191.95599365234375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "DECAL/LICENSE # (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            17.912799835205078,
+            190.17401123046875,
+            80.5636978149414,
+            209.91998291015625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "MANUFACTURER SERIAL NUMBER(S) (3)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            81.556396484375,
+            190.17401123046875,
+            260.3999938964844,
+            209.91998291015625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "HUD LABEL OR HCD INSIGNIA # (3)",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            261.4460144042969,
+            189.9019775390625,
+            412.9620056152344,
+            209.64801025390625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "LENGTH (Inches) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            414.49200439453125,
+            190.17401123046875,
+            476.49700927734375,
+            209.91998291015625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "WIDTH (Inches) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            477.7919921875,
+            190.13800048828125,
+            539.635009765625,
+            209.88397216796875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "WEIGHT (pounds) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            540.5570068359375,
+            189.99200439453125,
+            594.2169799804688,
+            209.73797607421875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "ADD UNITS",
+          "type": "checkbox",
+          "page": 0,
+          "rect": [
+            35.0181999206543,
+            229.09100341796875,
+            44.181800842285156,
+            238.58197021484375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "USE CODE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            65.92359924316406,
+            226.4730224609375,
+            107.61799621582031,
+            238.09100341796875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "EXPIRATION DATE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            108.06500244140625,
+            226.364013671875,
+            170.83599853515625,
+            238.20001220703125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "TAX TYPE",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            180.46400451660156,
+            231.135986328125,
+            187.66400146484375,
+            238.33599853515625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "TAX TYPE",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            207.75900268554688,
+            231.822998046875,
+            214.95899963378906,
+            239.02301025390625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "TAX TYPE",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            235.8040008544922,
+            231.05902099609375,
+            243.00399780273438,
+            238.25897216796875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "TAX TYPE",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            262.51300048828125,
+            231.8499755859375,
+            269.7130126953125,
+            239.04998779296875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "ORIG COST PRICE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            279.06500244140625,
+            226.4730224609375,
+            341.3999938964844,
+            238.20001220703125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "CODE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            342.39300537109375,
+            226.364013671875,
+            377.3999938964844,
+            238.20001220703125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "YR:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            378.4209899902344,
+            226.364013671875,
+            404.6180114746094,
+            238.20001220703125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "SALE PRICE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            405.28399658203125,
+            226.4730224609375,
+            492.9599914550781,
+            238.20001220703125
+          ],
+          "value": null,
+          "semantic_label": "sale_price"
+        },
+        {
+          "name": "DTN NUMBER(S):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            66.4800033569336,
+            246.218017578125,
+            224.27999877929688,
+            261.84002685546875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "DTN DATE(S):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            225.1649932861328,
+            246.60101318359375,
+            341.67401123046875,
+            261.8189697265625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "CLERK'S INITIALS:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            341.7380065917969,
+            249.1090087890625,
+            404.3999938964844,
+            261.84002685546875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "SALE DATE:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            405.22900390625,
+            248.94500732421875,
+            492.9599914550781,
+            261.84002685546875
+          ],
+          "value": null,
+          "semantic_label": "sale_date_field"
+        },
+        {
+          "name": "PPF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            215.74700927734375,
+            593.0170288085938,
+            235.3289794921875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "RF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            235.67999267578125,
+            593.0170288085938,
+            255.26202392578125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "ILT:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            252.85101318359375,
+            593.0170288085938,
+            272.4329833984375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "MRF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            271.90899658203125,
+            593.0170288085938,
+            291.4909973144531
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "PEN 1:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            289.864990234375,
+            593.0170288085938,
+            309.4469909667969
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "PEN 2:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            308.3450012207031,
+            593.0170288085938,
+            327.927001953125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "TRF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            328.135009765625,
+            593.0170288085938,
+            345.0989990234375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "DUPT:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            346.1780090332031,
+            593.0170288085938,
+            363.7959899902344
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "DUPR:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            365.0950012207031,
+            593.0170288085938,
+            384.677001953125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "SUBD:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            383.0400085449219,
+            593.0170288085938,
+            402.62200927734375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "CONF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.468994140625,
+            402.17498779296875,
+            592.4929809570312,
+            419.46600341796875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "REPO:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.666015625,
+            420,
+            592.6900024414062,
+            437.94500732421875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "RREG:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            438.5889892578125,
+            593.0170288085938,
+            456.6440124511719
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "RSF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            457.39599609375,
+            593.0170288085938,
+            475.2330017089844
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "PLT:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            475.6300048828125,
+            593.0170288085938,
+            493.739013671875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "SIT:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            522.9929809570312,
+            494.1409912109375,
+            593.0170288085938,
+            511.9230041503906
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "UTP:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            515.3930053710938,
+            512.738037109375,
+            551.9010009765625,
+            530.5849609375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "RT:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            552.3980102539062,
+            520.2160034179688,
+            591.9829711914062,
+            530.4760131835938
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "ASF:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            514.9019775390625,
+            531,
+            593.1630249023438,
+            549.2760009765625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "MHP:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            515.719970703125,
+            549.47998046875,
+            593.1630249023438,
+            567.5999755859375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "CCP (line 1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            514.9019775390625,
+            568.177978515625,
+            593.1630249023438,
+            585.6439819335938
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "CCP (line 2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            498.7569885253906,
+            586.9420166015625,
+            593.1630249023438,
+            604.4080200195312
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "TOTAL:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            524.916015625,
+            605.22900390625,
+            593.1630249023438,
+            623.10498046875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Last name of Registered Owner(s) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            96.12000274658203,
+            272.5150146484375,
+            225.31700134277344,
+            286.8609924316406
+          ],
+          "value": null,
+          "semantic_label": "owner_1_last_name"
+        },
+        {
+          "name": "First name of Registered Owner(s) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            225.51800537109375,
+            272.56298828125,
+            352.9150085449219,
+            286.635009765625
+          ],
+          "value": null,
+          "semantic_label": "owner_1_first_name"
+        },
+        {
+          "name": "Middle name of Registered Owner(s) (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            353.48199462890625,
+            272.61602783203125,
+            493.0989990234375,
+            286.4540100097656
+          ],
+          "value": null,
+          "semantic_label": "owner_1_middle_name"
+        },
+        {
+          "name": "Last name of Registered Owner(s) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            95.67549896240234,
+            288.4330139160156,
+            224.8730010986328,
+            303.92401123046875
+          ],
+          "value": null,
+          "semantic_label": "owner_2_last_name"
+        },
+        {
+          "name": "First name of Registered Owner(s) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            226.12100219726562,
+            287.95599365234375,
+            353.51800537109375,
+            304.4280090332031
+          ],
+          "value": null,
+          "semantic_label": "owner_2_first_name"
+        },
+        {
+          "name": "Middle name of Registered Owner(s) (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            353.47698974609375,
+            287.2560119628906,
+            493.093994140625,
+            304.3659973144531
+          ],
+          "value": null,
+          "semantic_label": "owner_2_middle_name"
+        },
+        {
+          "name": "Last name of Registered Owner(s) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            95.70690155029297,
+            305.63800048828125,
+            224.9040069580078,
+            321.6199951171875
+          ],
+          "value": null,
+          "semantic_label": "owner_3_last_name"
+        },
+        {
+          "name": "First name of Registered Owner(s) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            225.6719970703125,
+            305.7070007324219,
+            353.0690002441406,
+            320.8710021972656
+          ],
+          "value": null,
+          "semantic_label": "owner_3_first_name"
+        },
+        {
+          "name": "Middle name of Registered Owner(s) (3):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            353.70098876953125,
+            306.0820007324219,
+            493.3169860839844,
+            320.7919921875
+          ],
+          "value": null,
+          "semantic_label": "owner_3_middle_name"
+        },
+        {
+          "name": "If applicable, check one of the following for Registered Owner(s)",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            131.4550018310547,
+            327.4360046386719,
+            139.14599609375,
+            335.2909851074219
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Registered Owner(s)",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            209.34500122070312,
+            327.3819885253906,
+            217.3090057373047,
+            335.56298828125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Registered Owner(s)",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            256.14599609375,
+            327.05499267578125,
+            264.43701171875,
+            335.7820129394531
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Registered Owner(s)",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            339.4909973144531,
+            327.05499267578125,
+            347.7820129394531,
+            335.5639953613281
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Registered Owner(s)",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            413.3450012207031,
+            327.27301025390625,
+            421.5270080566406,
+            335.4540100097656
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Street of Current Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            114.1520004272461,
+            341.489013671875,
+            493.0740051269531,
+            358.2439880371094
+          ],
+          "value": null,
+          "semantic_label": "owner_mailing_street"
+        },
+        {
+          "name": "City of Current Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            113.89099884033203,
+            366.1260070800781,
+            230.3990020751953,
+            376.87200927734375
+          ],
+          "value": null,
+          "semantic_label": "owner_mailing_city"
+        },
+        {
+          "name": "County of Current Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            256.1449890136719,
+            366.05499267578125,
+            373.9630126953125,
+            376.8009948730469
+          ],
+          "value": null,
+          "semantic_label": "owner_mailing_county"
+        },
+        {
+          "name": "State of Current Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            394.47198486328125,
+            365.2349853515625,
+            435.9259948730469,
+            375.98199462890625
+          ],
+          "value": null,
+          "semantic_label": "owner_mailing_state"
+        },
+        {
+          "name": "Zip of Current Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            450.32598876953125,
+            366.6310119628906,
+            492.739990234375,
+            377.37701416015625
+          ],
+          "value": null,
+          "semantic_label": "owner_mailing_zip"
+        },
+        {
+          "name": "Street of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            108.20899963378906,
+            377.3900146484375,
+            492.5559997558594,
+            393.3550109863281
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "City of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            108.39199829101562,
+            404.0270080566406,
+            229.3520050048828,
+            416.28900146484375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "County of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            255.00999450683594,
+            404.74700927734375,
+            372.5450134277344,
+            417.0090026855469
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "State of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            393.25,
+            404.7699890136719,
+            439.57000732421875,
+            417.031005859375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Zip of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            450.8489990234375,
+            403.8970031738281,
+            492.8489990234375,
+            416.15899658203125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Effective Date of Future Mailing Address for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            79.20030212402344,
+            422.4020080566406,
+            494.1839904785156,
+            433.63800048828125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Street of Situs (Location) Address of unit for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            109.80000305175781,
+            443.82598876953125,
+            493.5559997558594,
+            455.06201171875
+          ],
+          "value": null,
+          "semantic_label": "situs_street"
+        },
+        {
+          "name": "City of Situs (Location) Address of unit for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            108,
+            462.9840087890625,
+            233.1280059814453,
+            474.1300048828125
+          ],
+          "value": null,
+          "semantic_label": "situs_city"
+        },
+        {
+          "name": "County of Situs (Location) Address of unit for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            254.12899780273438,
+            462.82000732421875,
+            377.7829895019531,
+            473.96600341796875
+          ],
+          "value": null,
+          "semantic_label": "situs_county"
+        },
+        {
+          "name": "State of Situs (Location) Address of unit for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            394.6929931640625,
+            462.96600341796875,
+            438.656005859375,
+            474.11199951171875
+          ],
+          "value": null,
+          "semantic_label": "situs_state"
+        },
+        {
+          "name": "Zip of Situs (Location) Address of unit for Registered Owner(s):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            450.9840087890625,
+            464.2929992675781,
+            492.9830017089844,
+            475.4389953613281
+          ],
+          "value": null,
+          "semantic_label": "situs_zip"
+        },
+        {
+          "name": "Legal Owner (Lienholder)[Print true name(s)](1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            81.16400146484375,
+            480.2749938964844,
+            492.2200012207031,
+            497.2929992675781
+          ],
+          "value": null,
+          "semantic_label": "legal_owner_1"
+        },
+        {
+          "name": "Legal Owner (Lienholder)[Print true name(s)] (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            81.81849670410156,
+            499.0929870605469,
+            492.9830017089844,
+            512.583984375
+          ],
+          "value": null,
+          "semantic_label": "legal_owner_2"
+        },
+        {
+          "name": "If applicable, check one of the following for Legal Owner",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            133.29600524902344,
+            521.3489990234375,
+            141.4340057373047,
+            529.1329956054688
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Legal Owner",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            211.77999877929688,
+            521.4169921875,
+            219.4949951171875,
+            529.010009765625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Legal Owner",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            258.5459899902344,
+            521.3900146484375,
+            266.46600341796875,
+            529.0750122070312
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Legal Owner",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            341.83599853515625,
+            521.3880004882812,
+            349.6470031738281,
+            529.14404296875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Legal Owner",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            413.6719970703125,
+            521.3880004882812,
+            421.5920104980469,
+            529.3079833984375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Street of Mailing Address for Legal Owner:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            110.61900329589844,
+            546.9840087890625,
+            231.81900024414062,
+            558.0750122070312
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "City of Mailing Address for Legal Owner:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            248.07400512695312,
+            548.02099609375,
+            374.510009765625,
+            559.1119995117188
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "State of Mailing Address for Legal Owner:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            393.3840026855469,
+            548.2570190429688,
+            439.30999755859375,
+            559.3480224609375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Zip of Mailing Address for Legal Owner:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            451.63800048828125,
+            548.2030029296875,
+            492.9830017089844,
+            559.2940063476562
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Junior Lienholder [Print true name(s)] (1):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            81.5093994140625,
+            565.6390380859375,
+            493.2200012207031,
+            578.0390014648438
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Junior Lienholder [Print true name(s)] (2):",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            80.5093994140625,
+            580.656982421875,
+            492.875,
+            593.0570068359375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Junior Lienholder",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            133.36399841308594,
+            600.3809814453125,
+            141.3820037841797,
+            608.7269897460938
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Junior Lienholder",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            211.41799926757812,
+            600.5449829101562,
+            219.43600463867188,
+            608.8909912109375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Junior Lienholder",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            258.2179870605469,
+            599.8909912109375,
+            266.2359924316406,
+            608.2369995117188
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Junior Lienholder",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            341.4549865722656,
+            600.43701171875,
+            349.4729919433594,
+            608.7830200195312
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If applicable, check one of the following for Junior Lienholder",
+          "type": "radio",
+          "page": 0,
+          "rect": [
+            413.5090026855469,
+            600.3809814453125,
+            421.5270080566406,
+            608.7269897460938
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Street of Mailing Address for Junior Lienholder:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            106.03700256347656,
+            630.7659912109375,
+            227.23699951171875,
+            641.8569946289062
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "City of Mailing Address for Junior Lienholder:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            245.45599365234375,
+            631.02099609375,
+            373.8559875488281,
+            642.1119995117188
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "State of Mailing Address for Junior Lienholder:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            394.6929931640625,
+            630.6749877929688,
+            438.0010070800781,
+            641.7659912109375
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Zip of Mailing Address for Junior Lienholder:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            449.0199890136719,
+            630.9849853515625,
+            494.2919921875,
+            642.0759887695312
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "ADD JR/LH",
+          "type": "checkbox",
+          "page": 0,
+          "rect": [
+            54.32749938964844,
+            647.3480224609375,
+            61.20029830932617,
+            653.8939819335938
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Executed on:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            64.80000305175781,
+            684.031982421875,
+            128.39999389648438,
+            696
+          ],
+          "value": null,
+          "semantic_label": "date_executed"
+        },
+        {
+          "name": "Executed at:",
+          "type": "text",
+          "page": 0,
+          "rect": [
+            139.32000732421875,
+            684.2869873046875,
+            486.1199951171875,
+            696.2546997070312
+          ],
+          "value": null,
+          "semantic_label": "place_executed"
+        },
+        {
+          "name": "The described unit on the reverse side of this application is a",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.594398498535156,
+            85.8759765625,
+            64.685302734375,
+            95.8900146484375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Manufactured Home/Mobilehome",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            72.64340209960938,
+            97.30401611328125,
+            82.69609832763672,
+            107.31298828125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Manufactured Home/Mobilehome",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            213.2010040283203,
+            97.198974609375,
+            223.30599975585938,
+            107.27099609375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "The described unit on the reverse side of this application is a",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.73609924316406,
+            108.7960205078125,
+            64.6906967163086,
+            118.80999755859375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Use Code is:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            245.3780059814453,
+            108.2969970703125,
+            557.0330200195312,
+            120.5369873046875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "The described unit on the reverse side of this application is a",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.752498626708984,
+            127.4310302734375,
+            64.81610107421875,
+            137.3480224609375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "The described unit on the reverse side of this application is a",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.68709945678711,
+            140.6199951171875,
+            64.77519989013672,
+            150.7249755859375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Is this a new unit?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.7340087890625,
+            176.86199951171875,
+            524.0640258789062,
+            186.85198974609375
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Is this a new unit?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.6690063476562,
+            176.8480224609375,
+            568.739990234375,
+            186.8790283203125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If \"NO\", enter the date the unit was first sold new:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            275.5889892578125,
+            189.82000732421875,
+            513.801025390625,
+            201.166015625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Has this unit been registered in California or any other State?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.7620239257812,
+            204.9730224609375,
+            523.8060302734375,
+            215.2080078125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Has this unit been registered in California or any other State?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.6409912109375,
+            204.87701416015625,
+            568.6890258789062,
+            214.9219970703125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If \"YES\", enter the state and the date the unit was last registered in:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            353.0830078125,
+            218.73297119140625,
+            513.0670166015625,
+            230.0780029296875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Enter the month, day, and year the unit entered California:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            335.1940002441406,
+            231.7869873046875,
+            513.14697265625,
+            243.13299560546875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "When the unit was last licensed, what state were you a resident of?:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            355.9079895019531,
+            245.61602783203125,
+            512.8079833984375,
+            256.96197509765625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a resident of California",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.14697265625,
+            260.81097412109375,
+            525.3880004882812,
+            273.051025390625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a resident of California",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.3419799804688,
+            260.81097412109375,
+            568.698974609375,
+            272.1090087890625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If \"YES\", when did you become a resident?:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            248.5709991455078,
+            273.6669921875,
+            513.14697265625,
+            285.0119934082031
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Except for any accompanying titles, are there any outstanding titles for this unit issued by any state?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.6380004882812,
+            311.62701416015625,
+            523.655029296875,
+            321.61700439453125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Except for any accompanying titles, are there any outstanding titles for this unit issued by any state?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.6690063476562,
+            311.5450134277344,
+            568.7139892578125,
+            321.7279968261719
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Is this unit now being used as security for any lien(s) other than the lien(s) shown (if any) on the reverse side of this application?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.677978515625,
+            339.6549987792969,
+            523.6959838867188,
+            349.59100341796875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Is this unit now being used as security for any lien(s) other than the lien(s) shown (if any) on the reverse side of this application?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.7369995117188,
+            339.6210021972656,
+            568.6729736328125,
+            349.510009765625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "This unit was purchased from",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            204.80099487304688,
+            374.1709899902344,
+            214.70899963378906,
+            384.2040100097656
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "This unit was purchased from",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            260.7969970703125,
+            374.1789855957031,
+            270.8699951171875,
+            384.1289978027344
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "This unit was purchased from",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            347.718994140625,
+            374.1520080566406,
+            357.8580017089844,
+            383.95098876953125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Enter the date of sale:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            152.0959930419922,
+            388.5660095214844,
+            405.3739929199219,
+            397.8999938964844
+          ],
+          "value": null,
+          "semantic_label": "sale_date"
+        },
+        {
+          "name": "Enter the date of delivery or installation:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            231.6230010986328,
+            403.01300048828125,
+            406.75201416015625,
+            412.34698486328125
+          ],
+          "value": null,
+          "semantic_label": "delivery_date"
+        },
+        {
+          "name": "Base unit (do not include sales tax, finance charges, transportation or installation charges) ($):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            518.1420288085938,
+            428.156005859375,
+            593.822021484375,
+            439.625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Unattached accessories (skirting, awning, refrigerator, etc.) ($):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            518.5330200195312,
+            443.34698486328125,
+            594.2130126953125,
+            454.8160095214844
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "TOTAL ($):",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            518.968994140625,
+            458.25,
+            594.6489868164062,
+            469.7200012207031
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Are you an active duty member of the U.S. Armed Forces?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            514.4819946289062,
+            492.52801513671875,
+            524.4609985351562,
+            502.6700134277344
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you an active duty member of the U.S. Armed Forces?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.708984375,
+            492.635986328125,
+            568.864990234375,
+            502.66900634765625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "When this unit was last licensed, were you on active duty as a member of the U.S. Armed Forces?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.719970703125,
+            506.52899169921875,
+            523.655029296875,
+            516.47900390625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "When this unit was last licensed, were you on active duty as a member of the U.S. Armed Forces?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.6810302734375,
+            506.4739990234375,
+            568.7570190429688,
+            516.5059814453125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If \"YES\", enter the state or country where you were stationed where unit was last licensed:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            325.77801513671875,
+            516.9140014648438,
+            515.031005859375,
+            531.97900390625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Is the unit installed on the tax-free portion of a military reservation?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.6790161132812,
+            534.5980224609375,
+            523.7109985351562,
+            544.6699829101562
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Is the unit installed on the tax-free portion of a military reservation?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.6669921875,
+            534.5490112304688,
+            568.7470092773438,
+            544.6290283203125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a member of a Federally Recognized American Indian Tribe?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            514.7830200195312,
+            548.4000244140625,
+            524.8629760742188,
+            558.47998046875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a member of a Federally Recognized American Indian Tribe?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.5599975585938,
+            548.509033203125,
+            568.6400146484375,
+            558.5889892578125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Enter the name of the Federal Indian Reservation or Rancheria and the date(s) the unit was located there:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            52.72710037231445,
+            580.0800170898438,
+            512.2059936523438,
+            595.14501953125
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a disabled veteran?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.6790161132812,
+            599.072998046875,
+            523.7509765625,
+            609.0239868164062
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you a disabled veteran?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.8330078125,
+            599.0250244140625,
+            568.9130249023438,
+            609.10498046875
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "If \"YES\", enter the state or country where you were stationed:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            325.77801513671875,
+            609.18603515625,
+            512.2059936523438,
+            624.2509765625
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Are you requesting exempt registration?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            513.5579833984375,
+            627.0280151367188,
+            523.6380004882812,
+            637.1080322265625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Are you requesting exempt registration?",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            558.5869750976562,
+            626.864990234375,
+            568.6669921875,
+            636.9439697265625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.627201080322266,
+            666.6380004882812,
+            64.65260314941406,
+            676.5809936523438
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            198.73699951171875,
+            666.5969848632812,
+            208.67999267578125,
+            676.594970703125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            360.6820068359375,
+            666.583984375,
+            370.5979919433594,
+            676.58203125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            360.6549987792969,
+            679.7559814453125,
+            370.7349853515625,
+            689.7269897460938
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "enter the agency or organization name below:",
+          "type": "text",
+          "page": 1,
+          "rect": [
+            196.78500366210938,
+            708.843017578125,
+            546.1019897460938,
+            721.9324951171875
+          ],
+          "value": null,
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.65449905395508,
+            679.8380126953125,
+            64.65260314941406,
+            689.7540283203125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            54.681800842285156,
+            693.0377807617188,
+            64.67990112304688,
+            702.9541015625
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            198.70899963378906,
+            679.7979736328125,
+            208.70700073242188,
+            689.6740112304688
+          ],
+          "value": "Off",
+          "semantic_label": null
+        },
+        {
+          "name": "Exempt organization/agency",
+          "type": "radio",
+          "page": 1,
+          "rect": [
+            198.14999389648438,
+            692.7252807617188,
+            208.7209930419922,
+            702.9688720703125
+          ],
+          "value": "Off",
+          "semantic_label": null
+        }
+      ]
+    }
+  ],
+  "semantic_map": {
+    "HCD_476_6G": {
+      "Decal (License) No.(s) (page 1):": "decal_number",
+      "Serial No.(s) (page 1):": "serial_number",
+      "Decal (License) No.(s) (page 2):": "decal_number_p2",
+      "Serial No.(s) (page 2):": "serial_number_p2",
+      "Date Executed on (page 1):": "date_executed_p1",
+      "City and State Executed at (page 1):": "city_state_executed_p1",
+      "PHONE #:": "phone",
+      "E-MAIL ADDRESS:": "email",
+      "Date Executed on (page 2):": "date_executed_p2",
+      "City and State Executed at (page 2):": "city_state_executed_p2",
+      "Street Address or P.O. Box, City, and State:": "mailing_address",
+      "Date of Declaration of Trust:": "trust_declaration_date",
+      "Print Name of the Trust. This is how the name of the Trust will appear on title.:": "trust_name",
+      "Show relationship:": "relationship"
+    },
+    "HCD_476_6": {
+      "Decal (License) Number": "decal_number",
+      "Trade Name:": "trade_name",
+      "Serial Number": "serial_number",
+      "Statement": "statement",
+      "Date Executed": "date_executed",
+      "City Executed": "city_executed",
+      "State Executed": "state_executed",
+      "Signature 1": "signature_1",
+      "Signature 2": "signature_2",
+      "Printed name - 1": "printed_name_1",
+      "Printed name - 2": "printed_name_2",
+      "Street Address:": "street_address",
+      "City:": "city",
+      "State:": "state"
+    },
+    "HCD_480_5": {
+      "NEW DECAL #:": "new_decal_number",
+      "OLD DECAL #:": "old_decal_number",
+      "Name of Manufacturer:": "manufacturer_name",
+      "Trade Name:": "trade_name",
+      "Date of Manufacture:": "manufacture_date",
+      "Model Name or #:": "model_name",
+      "Date First Sold New:": "date_first_sold",
+      "Last name of Registered Owner(s) (1):": "owner_1_last_name",
+      "First name of Registered Owner(s) (1):": "owner_1_first_name",
+      "Middle name of Registered Owner(s) (1):": "owner_1_middle_name",
+      "Last name of Registered Owner(s) (2):": "owner_2_last_name",
+      "First name of Registered Owner(s) (2):": "owner_2_first_name",
+      "Middle name of Registered Owner(s) (2):": "owner_2_middle_name",
+      "Last name of Registered Owner(s) (3):": "owner_3_last_name",
+      "First name of Registered Owner(s) (3):": "owner_3_first_name",
+      "Middle name of Registered Owner(s) (3):": "owner_3_middle_name",
+      "Street of Current Mailing Address for Registered Owner(s):": "owner_mailing_street",
+      "City of Current Mailing Address for Registered Owner(s):": "owner_mailing_city",
+      "County of Current Mailing Address for Registered Owner(s):": "owner_mailing_county",
+      "State of Current Mailing Address for Registered Owner(s):": "owner_mailing_state",
+      "Zip of Current Mailing Address for Registered Owner(s):": "owner_mailing_zip",
+      "Street of Situs (Location) Address of unit for Registered Owner(s):": "situs_street",
+      "City of Situs (Location) Address of unit for Registered Owner(s):": "situs_city",
+      "County of Situs (Location) Address of unit for Registered Owner(s):": "situs_county",
+      "State of Situs (Location) Address of unit for Registered Owner(s):": "situs_state",
+      "Zip of Situs (Location) Address of unit for Registered Owner(s):": "situs_zip",
+      "Legal Owner (Lienholder)[Print true name(s)](1):": "legal_owner_1",
+      "Legal Owner (Lienholder)[Print true name(s)] (2):": "legal_owner_2",
+      "DECAL/LICENSE # (1):": "unit_decal_1",
+      "MANUFACTURER SERIAL NUMBER(S) (1)": "unit_serial_1",
+      "HUD LABEL OR HCD INSIGNIA # (1)": "unit_hud_label_1",
+      "LENGTH (Inches) (1):": "unit_length_1",
+      "WIDTH (Inches) (1):": "unit_width_1",
+      "WEIGHT (pounds) (1):": "unit_weight_1",
+      "DECAL/LICENSE # (2):": "unit_decal_2",
+      "MANUFACTURER SERIAL NUMBER(S) (2)": "unit_serial_2",
+      "HUD LABEL OR HCD INSIGNIA # (2)": "unit_hud_label_2",
+      "Executed on:": "date_executed",
+      "Executed at:": "place_executed",
+      "Enter the date of sale:": "sale_date",
+      "Enter the date of delivery or installation:": "delivery_date",
+      "SALE PRICE:": "sale_price",
+      "SALE DATE:": "sale_date_field"
+    }
+  }
+}
