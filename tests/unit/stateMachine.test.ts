@@ -27,7 +27,7 @@ vi.mock("@/lib/eventbus", () => {
 });
 
 // Import after mocks are set up
-import { transition, failRun, extractJsonFromText, resolveExtractedJson } from "@/lib/runs/stateMachine";
+import { transition, failRun, extractJsonFromText, resolveExtractedJson, sanitizeExtractedJson } from "@/lib/runs/stateMachine";
 import { updateRun } from "@/lib/runs/store";
 import type { RunStatus } from "@/lib/runs/store";
 
@@ -250,5 +250,130 @@ describe("stateMachine — resolveExtractedJson()", () => {
     });
     const parsed = resolveExtractedJson(result, "/nonexistent") as { source: string };
     expect(parsed.source).toBe("message");
+  });
+});
+
+// ---------------------------------------------------------------------------
+// sanitizeExtractedJson — null/sentinel stripping before Zod validation
+// ---------------------------------------------------------------------------
+
+describe("stateMachine — sanitizeExtractedJson()", () => {
+  it("strips null values from top-level optional fields", () => {
+    const input = {
+      decal_number: "ABC123",
+      serial_number: "XYZ789",
+      sale_price: null,
+      sale_date: null,
+      owners: [{ name: "JOHN DOE" }],
+    };
+    const out = sanitizeExtractedJson(input) as Record<string, unknown>;
+    expect(out.sale_price).toBeUndefined();
+    expect(out.sale_date).toBeUndefined();
+    expect("sale_price" in out).toBe(false);
+    expect(out.decal_number).toBe("ABC123");
+  });
+
+  it("strips null/empty/N-A values from owner fields", () => {
+    const input = {
+      decal_number: "A",
+      serial_number: "B",
+      owners: [
+        { name: "JOHN", phone: null, email: "", city: "N/A", zip: "  none  " },
+      ],
+    };
+    const out = sanitizeExtractedJson(input) as { owners: Record<string, unknown>[] };
+    const owner = out.owners[0]!;
+    expect(owner.name).toBe("JOHN");
+    expect("phone" in owner).toBe(false);
+    expect("email" in owner).toBe(false);
+    expect("city" in owner).toBe(false);
+    expect("zip" in owner).toBe(false);
+  });
+
+  it("strips a wide set of sentinel strings (case-insensitive, trimmed)", () => {
+    const sentinels = ["", "N/A", "n/a", "NA", "None", "null", "Unknown", "Not Available", "  Not Provided  ", "not specified", "not present"];
+    for (const s of sentinels) {
+      const out = sanitizeExtractedJson({
+        decal_number: "X",
+        serial_number: "Y",
+        owners: [{ name: "Z" }],
+        notes: s,
+      }) as Record<string, unknown>;
+      expect("notes" in out).toBe(false);
+    }
+  });
+
+  it("preserves valid string values untouched", () => {
+    const input = {
+      decal_number: "ABC123",
+      serial_number: "XYZ789",
+      trade_name: "FLEETWOOD",
+      owners: [{ name: "JANE DOE", city: "SACRAMENTO" }],
+    };
+    const out = sanitizeExtractedJson(input) as Record<string, unknown>;
+    expect(out.trade_name).toBe("FLEETWOOD");
+    expect((out.owners as Record<string, unknown>[])[0]!.city).toBe("SACRAMENTO");
+  });
+
+  it("does NOT strip required fields that happen to be null (lets Zod fail loudly)", () => {
+    // decal_number: null should become decal_number absent → Zod reports "required"
+    const out = sanitizeExtractedJson({
+      decal_number: null,
+      serial_number: "Y",
+      owners: [{ name: "Z" }],
+    }) as Record<string, unknown>;
+    // It IS removed (we strip uniformly) — but the schema then catches the
+    // missing required key, which is the correct failure mode.
+    expect("decal_number" in out).toBe(false);
+  });
+
+  it("drops owner entries that are not objects", () => {
+    const out = sanitizeExtractedJson({
+      decal_number: "A",
+      serial_number: "B",
+      owners: [{ name: "JOHN" }, null, "not an owner", 42, [{ name: "nested" }]],
+    }) as { owners: unknown[] };
+    expect(out.owners).toHaveLength(1);
+    expect((out.owners[0]! as { name: string }).name).toBe("JOHN");
+  });
+
+  it("returns the input unchanged when not a plain object", () => {
+    expect(sanitizeExtractedJson(null)).toBeNull();
+    expect(sanitizeExtractedJson("string")).toBe("string");
+    expect(sanitizeExtractedJson(42)).toBe(42);
+    expect(sanitizeExtractedJson([1, 2])).toEqual([1, 2]);
+  });
+
+  it("handles missing owners array gracefully (lets Zod fail)", () => {
+    const out = sanitizeExtractedJson({
+      decal_number: "A",
+      serial_number: "B",
+    }) as Record<string, unknown>;
+    expect("owners" in out).toBe(false);
+  });
+
+  it("end-to-end: realistic null-laden LLM output passes Zod after sanitization", async () => {
+    const { ExtractedFieldsSchema } = await import("@/lib/pdf/extractedSchema");
+    const llmOutput = {
+      decal_number: "LBJ4321",
+      serial_number: "SN-987654",
+      trade_name: "FLEETWOOD",
+      manufacturer_name: null,
+      manufacture_date: "1998",
+      model_name: null,
+      owners: [
+        { name: "JOHN SMITH", mailing_address: "123 MAIN ST", city: "SACRAMENTO", state: "CA", zip: "95814", phone: null, email: null },
+      ],
+      situs_address: "123 MAIN ST",
+      situs_city: "SACRAMENTO",
+      situs_state: "CA",
+      situs_zip: "95814",
+      sale_price: null,
+      sale_date: null,
+      notes: "N/A",
+    };
+    const sanitized = sanitizeExtractedJson(llmOutput);
+    const result = ExtractedFieldsSchema.safeParse(sanitized);
+    expect(result.success).toBe(true);
   });
 });

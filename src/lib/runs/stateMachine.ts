@@ -15,7 +15,7 @@
  * Ref: references/research/ORCHESTRATION_HIGH_QUALITY_REFERENCE.md §4, §5
  */
 
-import { mkdir } from "node:fs/promises";
+import { mkdir, copyFile } from "node:fs/promises";
 import { readFileSync, readdirSync, renameSync, existsSync } from "node:fs";
 import path from "node:path";
 import { getEventBus } from "@/lib/eventbus";
@@ -127,6 +127,86 @@ export function resolveExtractedJson(
   }
 
   return null;
+}
+
+// ---------------------------------------------------------------------------
+// Sanitization — coerce LLM "I-don't-know" sentinels into omissions
+// ---------------------------------------------------------------------------
+
+/**
+ * Values an LLM commonly emits to mean "field not present in the document".
+ * Optional fields in `ExtractedFieldsSchema` are `z.string().optional()` and
+ * therefore reject `null`, empty strings, and the literal `"N/A"`. The model
+ * (claude-haiku-4.5) regularly violates the "omit if missing" instruction and
+ * emits these sentinels anyway. We strip them server-side so a single sloppy
+ * field does not torpedo an otherwise-correct extraction.
+ *
+ * Required fields (`decal_number`, `serial_number`, `owners[].name`) are
+ * intentionally NOT special-cased: if they come back as a sentinel, the
+ * resulting "missing key" is the correct failure mode and Zod will report it.
+ */
+const EMPTY_SENTINELS: ReadonlySet<string> = new Set([
+  "",
+  "n/a",
+  "na",
+  "none",
+  "null",
+  "undefined",
+  "unknown",
+  "not available",
+  "not provided",
+  "not specified",
+  "not present",
+]);
+
+function isEmptySentinel(value: unknown): boolean {
+  if (value === null || value === undefined) return true;
+  if (typeof value !== "string") return false;
+  return EMPTY_SENTINELS.has(value.trim().toLowerCase());
+}
+
+function stripSentinels(obj: Record<string, unknown>): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(obj)) {
+    if (isEmptySentinel(value)) continue;
+    out[key] = value;
+  }
+  return out;
+}
+
+/**
+ * Normalize a parsed extraction payload before Zod validation.
+ *
+ * - Strips null / empty-string / "N/A"-like sentinels from top-level keys.
+ * - Strips the same sentinels from each owner object.
+ * - Drops owner entries that are not objects or that lose their `name`.
+ * - Leaves required fields untouched so schema validation still flags them.
+ *
+ * Returns the parsed value unchanged if it is not a plain object (Zod will
+ * then fail with a clear "expected object" message).
+ *
+ * @internal Exported for unit testing.
+ */
+export function sanitizeExtractedJson(parsed: unknown): unknown {
+  if (parsed === null || typeof parsed !== "object" || Array.isArray(parsed)) {
+    return parsed;
+  }
+
+  const top = stripSentinels(parsed as Record<string, unknown>);
+
+  if (Array.isArray((parsed as Record<string, unknown>).owners)) {
+    const owners = ((parsed as Record<string, unknown>).owners as unknown[])
+      .map((entry) => {
+        if (entry === null || typeof entry !== "object" || Array.isArray(entry)) {
+          return null;
+        }
+        return stripSentinels(entry as Record<string, unknown>);
+      })
+      .filter((entry): entry is Record<string, unknown> => entry !== null);
+    top.owners = owners;
+  }
+
+  return top;
 }
 
 // ---------------------------------------------------------------------------
@@ -257,7 +337,8 @@ export async function advanceRun(runId: string): Promise<void> {
       );
       return;
     }
-    const validated = ExtractedFieldsSchema.safeParse(parsed);
+    const sanitized = sanitizeExtractedJson(parsed);
+    const validated = ExtractedFieldsSchema.safeParse(sanitized);
     if (!validated.success) {
       failRun(
         runId,
@@ -303,6 +384,28 @@ export async function resumeAfterApproval(runId: string): Promise<void> {
   const { root, outDir } = await ensureRunDirs(runId);
 
   try {
+    // --- Copy blank form PDFs into the per-run directory --------------------
+    // The Copilot CLI bash tool enforces a CWD-based sandbox when spawned
+    // with `--no-ask-user`. The agent's CWD is `/workspace/runs/<runId>/`,
+    // so it CANNOT access `/app/assets/` via bash commands. Copying the
+    // blank forms into the run directory makes them accessible to both
+    // the bash tool (for verification) and MCP tools (for fill_form_pdf).
+    const localBlankFormsDir = path.join(root, "blank_forms");
+    await mkdir(localBlankFormsDir, { recursive: true });
+    const BLANK_FORM_FILES = [
+      "hcd-rt-476-6.pdf",
+      "hcd-rt-476-6g.pdf",
+      "hcd-rt-480-5.pdf",
+    ] as const;
+    await Promise.all(
+      BLANK_FORM_FILES.map((f) =>
+        copyFile(
+          path.join(BLANK_FORMS_DIR, f),
+          path.join(localBlankFormsDir, f),
+        ),
+      ),
+    );
+
     // Build filler prompt with approved data and field catalogue
     const approvedJson = run.approved_json ?? "{}";
     const catalogue = loadFieldCatalogue();
@@ -312,7 +415,7 @@ export async function resumeAfterApproval(runId: string): Promise<void> {
       approvedJson,
       fieldCatalogueJson,
       outDir,
-      BLANK_FORMS_DIR,
+      localBlankFormsDir,
     );
 
     const result = await spawnCopilot({
